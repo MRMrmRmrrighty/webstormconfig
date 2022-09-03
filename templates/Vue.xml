@@ -1,0 +1,10 @@
+<templateSet group="Vue">
+  <template name="vue" value="/**&#10;*&#10;* @file: $FILENAME$.vue&#10;* @author: Jackey/gmokido@gmail.com&#10;* Date: $DATE$ $TIME$&#10;*/&#10;&#10;&lt;template&gt;&#10;  &lt;div class=&quot;$FILENAME$-container&quot;&gt;&#10;  &lt;div&gt;&lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;  export default {&#10;    name: '$FILENAME$',&#10;    props: {},&#10;    mixins: [],&#10;    components: {},&#10;    data() {&#10;      return {};&#10;    },&#10;    watch:{},&#10;    computed: {},&#10;    created() {&#10;    },&#10;    mounted() {&#10;    },&#10;    methods: {},&#10;  };&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;scss&quot; scoped&gt;&#10;.$FILENAME$-container{&#10;}&#10;&lt;/style&gt;&#10;&#10;&lt;style lang=&quot;scss&quot;&gt;&#10;.$FILENAME$-container{&#10;}&#10;&lt;/style&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
